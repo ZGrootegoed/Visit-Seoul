@@ -1,0 +1,49 @@
+<!-- DOCTYPE html -->
+
+<html>
+
+<head>
+	<!-- title tag for browser tab -->
+	<title>Visit Seoul</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link element to css file -->
+	<link rel="stylesheet" href="css/styles.css">	
+</head>
+
+<body>
+	<!-- Body element for the content -->
+        
+    <header class="HomePage2">
+        <h1><a href="index.html">Visit Seoul</a></h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Seoul</a>
+        <a href="places.html">Places to Visit</a>
+        <a href="food.html">Food to Try</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript.html">My Project</a>
+    </nav>
+    
+    <!-- Div for different pictures with hoverable text -->
+    <div id="FoodPictures">
+        <div id="F1">
+            <h2>Bulgogi (marinated beef barbecue)</h2>
+            <img src="beef.jpg" height="400" width="600" onmouseOver="hoverInfo1('')";>
+            <div id="foodInfo"></div>
+        </div>
+        <div id="F2">
+            <h2>Kimchi (fermented vegetables)</h2>
+            <img src="veggie.jpg" height="400" width="600" onmouseOver="hoverInfo2('')";>
+            <div id="foodInfo2"></div>
+        </div>
+    </div>
+
+	<!-- Link element to JavaScript file -->
+	<script type="text/JavaScript" src="js/main.js">
+	</script>
+</body>
+
+</html>	 

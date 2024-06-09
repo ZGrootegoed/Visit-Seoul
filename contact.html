@@ -1,0 +1,67 @@
+<!-- DOCTYPE html -->
+
+<html>
+
+<head>
+	<!-- title tag for browser tab -->
+	<title>Visit Seoul</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link element to css file -->
+	<link rel="stylesheet" href="css/styles.css">	
+</head>
+
+<body>
+	<!-- Body element for the content -->
+        
+    <header class="HomePage2">
+        <h1><a href="index.html">Visit Seoul</a></h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Seoul</a>
+        <a href="places.html">Places to Visit</a>
+        <a href="food.html">Food to Try</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript.html">My Project</a>
+    </nav>
+    
+    <!-- Form for contact information -->
+    <div>
+        <h2>Fill out the form to be sent more information</h2>
+    </div>
+    <div id="FormDiv">
+        <form name="ContactForm" action="" id="FormID" onsubmit="">
+            <p>
+                <label for="nameID">Enter your name: </label>
+                <input type="text" id="nameID" placeholder="enter name here">
+                <br><br>
+                <label for="emailID">Enter your e-mail address: </label>
+                <input type="text" id="emailID" placeholder="enter email here">
+                <br><br>
+                <label for="phoneID">Enter your phone number: </label>
+                <input type="text" id="phoneID" placeholder="enter phone here">
+                <br><br>
+                <label for="reasonID">Reason: </label>
+                <select id="reasonID" name="Information Choice: ">
+                    <option value="">Select from list</option>
+                    <option value="generalinfo">General Info</option>
+                    <option value="touristinfo">Tourist Info</option>
+                    <option value="Othersites">Other tourist sites</option>
+                    <option value="moneyexchange">Money Exchange Services</option>
+                    <option vlaue="other">Other</option>
+                </select>
+                <br><br>
+                <input type="submit" id="submitButton" name="Submit">
+            </p>
+        </form>
+        <p id="test"></p>
+    </div>
+
+	<!-- Link element to JavaScript file -->
+	<script type="text/JavaScript" src="js/main.js">
+	</script>
+</body>
+
+</html>	 

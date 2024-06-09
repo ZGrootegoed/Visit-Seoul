@@ -1,0 +1,67 @@
+<!-- DOCTYPE html -->
+
+<html>
+
+<head>
+	<!-- title tag for browser tab -->
+	<title>Visit Seoul</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link element to css file -->
+	<link rel="stylesheet" href="css/styles.css">	
+</head>
+
+<body>
+	<!-- Body element for the content -->
+        
+    <header class="HomePage2">
+        <h1><a href="index.html">Visit Seoul</a></h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Seoul</a>
+        <a href="places.html">Places to Visit</a>
+        <a href="food.html">Food to Try</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript.html">My Project</a>
+    </nav>
+    
+    <div id="PlacesPictures">
+        <img src="city.jpg" height="400" width="700">
+        <img src="river.jpg" height="400" width="700">
+    </div>
+
+    <div id="SeoulTxt">
+        <h2>About Seoul</h2>
+        <p>
+            Seoul is Korea’s foremost city, where the history of the 500-year old Joseon Kingdom and modern cutting edge technology coexist. 
+            Explore Jongno and Gwanghwamun, the heart of Seoul; Hongdae, the home ground for indie bands and flea markets; Gangnam, a futuristic yet stylish
+             metropolis; Dongdaemun and Myeong-dong, Seoul’s major shopping districts.
+        </p>
+        <p>
+            The Seoul National Capital Area is the second-largest in the world at 233.7 square miles and an average elevation of just above sea level 
+            at 282 feet. Because of its very large population, Seoul is considered a global city and it is the center of South Korea's economy, 
+            culture, and politics. As of 2021 the population of this city is 9.77 million. Throughout its history, Seoul was known by a number of different names, and the name Seoul itself is believed to 
+            have originated from the Korean word for the capital city, Seoraneol. 
+        </p>
+        <p>
+            In South Korea they use Won as their currency. Which has been in circulation in South Korea since 1945. The plural of "won" is "wones".
+        </p>
+        <form action="">
+            <label for="ConvertUSD">Enter an amount in USD to convert: $</label>
+            <input type="number" id="ConvertUSD" name="ConvertUSD" step="0.01" min="1" placeholder="0000">
+            <button onclick="calc();return false;">Convert</button>
+            <br><br>
+            <label for="result">Converted to KRW (won): ₩</label>
+            <input type="text" id="result" placeholder="0000">
+        </form>
+    </div>
+
+
+	<!-- Link element to JavaScript file -->
+	<script type="text/JavaScript" src="js/main.js">
+	</script>
+</body>
+
+</html>	 

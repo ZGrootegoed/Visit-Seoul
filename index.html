@@ -1,0 +1,78 @@
+<!-- DOCTYPE html -->
+
+<html>
+
+<head>
+	<!-- title tag for browser tab -->
+	<title>Visit Seoul</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link element to css file -->
+	<link rel="stylesheet" href="css/styles.css">	
+</head>
+
+<body>
+	<!-- Body element for the content -->
+        
+    <header class="HomePage">
+        <h1><a href="index.html">Visit Seoul</a></h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Seoul</a>
+        <a href="places.html">Places to Visit</a>
+        <a href="food.html">Food to Try</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript.html">My Project</a>
+    </nav>
+    
+    <!-- div for the slideshow -->
+    <div class="HomeShow">
+        <img id="images">
+    </div>
+
+    <!-- div for the text content -->
+    <div class="grid">
+        <div class="home1">
+            <h2>Seoul, South Korea</h2>
+            <p>
+                South Korea, country in East Asia. It occupies the southern portion of North Korea to the north, the East Sea to the east, the East China Sea to the south, 
+                and the Yellow Sea to the west; to the southeast it is separated from the Japanese island of Tsushima by the Korea Strait. South Korea makes up about 45 percent 
+                of the peninsula’s land area. The capital is Seoul which is located in the north of South Korea.
+            </p>
+            <p>
+                The greatest influence on the climate of the Korean peninsula is its proximity to the main Asian landmass. This produces the marked summer-winter temperature extremes of a continental climate while also establishing the northeast Asian monsoons (seasonal winds) that affect precipitation patterns. 
+                The annual range of temperature is greater in the north and in interior regions of the peninsula than in the south and along the coast, reflecting the relative decline in continental influences in the latter areas.
+            </p>
+            <form action="">
+                <p style="font-weight: bold;">Select season to check average temperature:</p>
+                <input type="radio" id="spring" name="season" value="spring">
+                <label for="spring">Spring</label>
+                <br>
+                <input type="radio" id="summer" name="season" value="summer">
+                <label for="summer">Summer</label>
+                <br>
+                <input type="radio" id="fall" name="season" value="fall">
+                <label for="fall">Fall</label>
+                <br>
+                <input type="radio" id="winter" name="season" value="winter">
+                <label for="winter">Winter</label>
+                <br><br>
+                <p id="weatherResult"></p>
+                <!-- <input type="text" id="weather" placeholder="average temperature"> -->
+            </form>
+        </div>
+        <div class="home2">
+            <h2>Map of South Korea</h2>
+            <img src="map.jpg" id="TheMap">
+        </div>
+    </div>
+
+	<!-- Link element to JavaScript file -->
+	<script type="text/JavaScript" src="js/main.js">
+	</script>
+    
+</body>
+
+</html>	 
