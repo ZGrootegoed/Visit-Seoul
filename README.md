@@ -6,7 +6,7 @@ getElementbyID for returning the value in correct format.
 The "Home" page which includes a banner of images being rotated out utilizing a DOM manipulation with an if statement and timeout. A radio button form for selecting the average temperature for that season.
 When the user selects one of the radio option, the average temperature in Fahrenheit is displayed. 
 
-{INSERT IMAGE OF INDEX}
+![Image](https://github.com/user-attachments/assets/824412b2-3695-40d5-a991-57be3b1435f4)
 
 The "About Seoul" page includes a currency conversion from USD to KRW, Korean currency. Which gets the user input, parses the float, coverts it, and displays to the webpage.
 
